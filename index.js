@@ -21,4 +21,5 @@ function ternaryCheckCity(someValue) {
   if (ternaryCheckCity === "NYC") {
     returnValue = "Ok, sounds good."
   }
+  return returnValue;
 }
