@@ -36,10 +36,10 @@ function switchOnCharmFromTip(someValue) {
 //  }
 
   switch (someValue) {
-    case true:
+    case "generous":
       returnValue = 'Thank you so much.';
       break;
-    case 'tip is not as generous':
+    case 'not as generous':
       returnValue = 'sushi';
       break;
     default:
