@@ -40,7 +40,7 @@ function switchOnCharmFromTip(someValue) {
       returnValue = 'Thank you so much.';
       break;
     case 'not as generous':
-      returnValue = 'sushi';
+      returnValue = 'Thank you.';
       break;
     default:
       returnValue = 'Bye.';
