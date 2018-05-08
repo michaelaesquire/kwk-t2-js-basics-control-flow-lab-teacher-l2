@@ -6,5 +6,9 @@ function scuberGreetingForFeet(someValue) {
   if (someValue <= 400) {
     returnValue = "This one is on me!";
   }
+  else if (someValue > 2000) {
+    returnValue = "I will gladly take your thirty bucks."
+  }
   return returnValue;
+  
 }
