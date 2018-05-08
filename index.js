@@ -6,4 +6,5 @@ function scuberGreetingForFeet(someValue) {
   if (someNumber < 400) {
     returnValue = "This one is on me!";
   }
+  return returnValue;
 }
