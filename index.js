@@ -30,19 +30,12 @@ function ternaryCheckCity(someValue) {
 function switchOnCharmFromTip(someValue) {
   let returnValue;
 
-  switch(someValue) {
-      case "Tip is generous":
-          returnValue = "Thank you so Mmuch.";
-          break;
-      case 1:
-          returnValue = "Monday";
-          break;
-      case 2:
-          returnValue = "Tuesday";
-          break;
-
+  if (someValue > 5) {
+    returnValue = "Thank you so much."
+    
   }
-  return returnValue; 
+
+  return returnValue;
 
 
 }
