@@ -42,7 +42,7 @@ function switchOnCharmFromTip(someValue) {
           break;
 
   }
-
+  return returnValue; 
 
 
 }
