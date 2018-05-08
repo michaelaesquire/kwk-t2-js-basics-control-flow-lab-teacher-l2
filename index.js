@@ -42,8 +42,8 @@ function switchOnCharmFromTip(someValue) {
     case 'tip is not as generous':
       returnValue = 'sushi';
       break;
-    case 'famished':
-      returnValue = 'lasagna';
+    default:
+      returnValue = 'Bye.';
       break;
   }
 
