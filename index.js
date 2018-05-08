@@ -30,10 +30,25 @@ function ternaryCheckCity(someValue) {
 function switchOnCharmFromTip(someValue) {
   let returnValue;
 
-  if (someValue > 5) {
-    returnValue = "Thank you so much."
+//  if (someValue > 5) {
+//    returnValue = "Thank you so much."/
 
+//  }
+
+  switch (someValue) {
+    case 'Tip is Generous':
+      returnValue = 'Thank you so much.';
+      break;
+    case 'moderate':
+      returnValue = 'sushi';
+      break;
+    case 'famished':
+      returnValue = 'lasagna';
+      break;
   }
+
+
+
 
   return returnValue;
 
