@@ -32,7 +32,7 @@ function switchOnCharmFromTip(someValue) {
 
   if (someValue > 5) {
     returnValue = "Thank you so much."
-    
+
   }
 
   return returnValue;
